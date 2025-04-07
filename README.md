@@ -16,7 +16,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -43,7 +42,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 
 ### What I learned
-This is my first website ill ever create, i hope to get better, I learnt how this code tells a web browser how to read text on a webpage, it is very crucial. i also got to know more about css styles.
+This is the first website i'll ever create, I hope to get better, I learnt how this code tells a web browser how to read text on a webpage, it is very crucial. i also got to know more about css styles.
 ```html
  <head>
             <meta charset="UTF-8">
