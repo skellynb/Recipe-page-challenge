@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Young-Serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(24, 5%, 18%);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+  }
+ .content{
+  background: hsl(0, 0%, 100%);/* makes main content background white*/
+  max-width: 800px; /* size of the main content*/
+  border-radius: 12px;/*corner radius of main content*/
+  padding: 50px;/*places written content in the main content color*/
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+
+ }
+ 
+ .omlette-image{
+  width: 100%;
+  max-width: 650px;
+  display:block;
+  border-radius: 5%; /*corner radius of picture*/
+  margin: 0 auto 25px auto; /* adds space below the image */
+ }
+
+ #title{
+  font-family: 'Young-serif', serif;
+  font-size: 42px;
+  color: hsl(24, 5%, 18%);
+  font-weight: 500;
+  margin-bottom: 18px; /* adds space below the image */
+
+ }
+
+ p{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px; /* More space between paragraphs */
+  letter-spacing: 0cap;
+}
+
+.preparation {
+  font-family: 'Outfit', sans-serif;
+  background: hsl(330, 100%, 98%);
+  padding: 25px;
+  border-radius: 8px;
+  margin-top: 25px;
+  }
+
+ 
+
+  .p-time{
+    color: hsl(332, 51%, 32%);
+  }
+
+ .inge{
+  font-family: 'Young-serif', serif;
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+   font-weight: 300;
+   margin-top: 20px;
+   
+ }
+
+ hr{
+  margin-top: 20px  ;
+  margin-bottom: 30px;
+  width: 100%;
+  border: none;
+  height: 1px; /*thin line that is less visible*/
+  background-color: rgba(128, 128, 128, 0.3); /*for a gray thin line that is less visible*/
+}
+ 
+ .instr{
+  font-family: 'Young-serif', serif;
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 300;
+  margin-top: 20px;
+ }
+
+ ul li::marker,
+ ol li::marker {
+  color: hsl(14, 45%, 36%);
+ font-weight: bold;
+ }
+ 
+
+ .nutri{
+  font-family: 'Young-serif', serif;
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+ .cal{
+  word-spacing: 300px;
+
+ }
+
+ 
+
+ .car{
+  word-spacing: 317px;
+ }
+
+  .pro{
+    word-spacing: 310px;
+  
+ }
+  
+ .fat{
+  word-spacing: 339px;
+
+}
+
+span{
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
